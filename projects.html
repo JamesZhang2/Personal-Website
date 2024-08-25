@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-tab"><a href="index.html">Home</a></div>
+        <div class="nav-tab"><a href="resume.html">Resume</a></div>
+        <div class="nav-tab"><a href="projects.html">Projects</a></div>
+    </nav>
+    <h1>Projects</h1>
+    <div class="section">
+        <h2>Class Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-header">
+                    <p><b>Compiler</b>, Java</p>
+                    <p>Jan 2023 — May 2023</p>
+                </div>
+                <ul>
+                    <li>Implemented a compiler that compiles a C-like language to x86-64 assembly (~17,000 lines of code, 3 teammates)</li>
+                    <li>Used JFlex and Java Cup for generating lexers and parsers, created control flow graphs for optimization</li>
+                    <li>Components: lexer, parser, type checker, intermediate representation (IR) generator, assembly generator, optimizer</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <p><b><a href="https://github.com/JamesZhang2/Instant-Messaging">Instant Messaging App</a></b>, OCaml</p>
+                    <p>Feb 2022 — May 2022</p>
+                </div>
+                <ul>
+                    <li>Designed and created an Instant Messaging app (~3,200 lines of code, 2 teammates)</li>
+                    <li>Clients can register, send/accept/reject friend requests, send and receive messages from friends, create and join group chats, and send group chat messages; the server handles requests from clients and stores data in databases</li>
+                    <li>Project features: server-client network, databases (SQLite), direct messages, friend requests, group chats</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <p><b>Critter World</b>, Java</p>
+                    <p>Oct 2021 — Dec 2021</p>
+                </div>
+                <ul>
+                    <li>Simulated evolution of artificial life ("critters") on a hexagonal world (~10,000 lines of code, 2 teammates)</li>
+                    <li>Critters can move, eat, attack, grow, and reproduce according to user-defined rules, which are parsed and interpreted by the program; random mutations may occur during reproduction</li>
+                    <li>Project features: parser, pretty-printer, fault injector, interpreter, simulator, MVC design, console interface, and GUI</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Personal Projects</h2>
+
+        <div class="card">
+            <div class="card-header">
+                <p><b><a href="https://github.com/JamesZhang2/Chess">Chess</a></b>, Java</p>
+                <p>Dec 2023 — Present</p>
+            </div>
+            <ul>
+                <li>Move generation using both 2D-array and Bitboard representation</li>
+                <li>Planned features: Frontend, Minimax algorithm with alpha-beta pruning, Endgame tablebase</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p><b><a href="https://github.com/JamesZhang2/Scrabble-Phoney-Trainer">Scrabble Phoney Trainer</a></b>, HTML/CSS/JavaScript</p>
+                <p>Dec 2023</p>
+            </div>
+            <ul>
+                <li>A simple webapp for studying short words in Scrabble</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p><b><a href="https://github.com/JamesZhang2/Random-Point-in-Ball">Random Point in High-dimensional Ball</a></b>, Python</p>
+                <p>Jul 2022 — Aug 2022</p>
+            </div>
+            <ul>
+                <li>Made a math YouTube video with Manim (Python library) on how to find a random point in a high-dimensional ball</li>
+                <li>Submitted entry to Summer of Math Exposition 2 (SoME2) competition hosted by 3Blue1Brown</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

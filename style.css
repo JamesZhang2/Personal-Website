@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 120px 30px 120px;
+}
+
+p {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.photo {
+    float: right;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
+.nav-tab:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.nav-tab a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card ul {
+    margin: 0px;
+}
+
+.card {
+    margin-top: 16px;
+}
+
+h2 {
+    margin: 30px 0px 0px 0px;
+}
